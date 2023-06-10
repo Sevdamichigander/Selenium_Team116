@@ -1,4 +1,4 @@
-package video2;
+package video2_DriverMethodlari;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.Dimension;
@@ -31,12 +31,16 @@ public class DriverManageMethodlari {
 
             // 1-C driver.manage().window().setPosition(new Point(15,15));
             //     icinde oldugu sayfanin sol alt kosesini bizim yazacagimiz pixel noktasina tasir
+
         driver.manage().window().setPosition(new Point(15,15));
+
             // 1-D driver.manage().window().setSize(new Dimension(900,600));
             // icinde oldugu sayfanin sol alt kosesi sabit olarak bizim yazacagimiz olculere getirir
+
         driver.manage().window().setSize(new Dimension(900,600));
 
             // konumu ve boyutu yeniledikten sonra tekrar yazdirirsak
+
         System.out.println("yeni pencere olculeri : " + driver.manage().window().getSize()); //  (902, 602)
         System.out.println("yeni pencere konumu : " + driver.manage().window().getPosition()); // (13, 13)
 
@@ -59,14 +63,16 @@ public class DriverManageMethodlari {
 
         // 2- driver.manage().timeouts() methodlari
 
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15)); // Selenium a bekle diyoruz
 
         /*      wait konusunu ilerde tek basina ele alacagiz
                 ancak her class icin yapmamiz gereken bir ayar oldugu icin burada kisaca deginelim
+
                 implicitlyWait : driver'a sayfanin yuklenmesi ve kullanacagimiz webelementlerin bulunmasi icin
                                  bekleyecegi maximum sureyi belirtir.
                                  driver bu sure icerisinde sayfa yuklenir/web element bulunursa
                                  beklemeden calismaya devam eder.
+
                                  bu sure bittigi halde sayfa yuklenememis/webElement bulunamamissa
                                  exception vererek calismayi durdurur
 

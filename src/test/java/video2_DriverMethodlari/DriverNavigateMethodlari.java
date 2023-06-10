@@ -1,4 +1,4 @@
-package video2;
+package video2_DriverMethodlari;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
