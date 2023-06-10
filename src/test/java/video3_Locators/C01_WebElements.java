@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class C01_ {
+public class C01_WebElements {
     public static void main(String[] args) throws InterruptedException {
 
         System.setProperty("Webdriver.chrome.driver","drivers/chromedriver");
