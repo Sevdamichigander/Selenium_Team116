@@ -10,25 +10,34 @@ import java.time.Duration;
 public class C01_WebElements {
     public static void main(String[] args) throws InterruptedException {
 
-        System.setProperty("Webdriver.chrome.driver","drivers/chromedriver");
-        WebDriver driver = new ChromeDriver();
+        WebDriver driver = acilisAyarlari();
 
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofDays(15));
+
 
         driver.get("https://www.amazon.com");
-        driver.findElement(By.id("twotabsearchtextbox"));
 
         WebElement aramaKutusu = driver.findElement(By.id("twotabsearchtextbox"));
         aramaKutusu.sendKeys("Nutella");
-        aramaKutusu.submit();
+        aramaKutusu.submit(); // enter demek
 
+        WebElement sonucYaziElementi = driver.findElement(By.xpath("//div[@class='a-section a-spacing-small a-spacing-top-small']"));
+        System.out.println(sonucYaziElementi.getText());
         Thread.sleep(3000);
         driver.close();
 
 
 
 
+
+    }
+
+    public static WebDriver acilisAyarlari() {
+
+        System.setProperty("Webdriver.chrome.driver","drivers/chromedriver");
+        WebDriver driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofDays(15));
+        return driver;
 
     }
 }

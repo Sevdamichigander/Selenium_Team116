@@ -14,9 +14,7 @@ public class C03_AutomationExercise {
 
         //1- Bir test class’i olusturun ilgili ayarlari yapin
 
-        WebDriver driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+         WebDriver driver = C01_WebElements.acilisAyarlari();
 
 
 

@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3f2829e9-0652-4529-bd94-c1c0823c455a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/video3_Locators/C01_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/video3_Locators/C01_WebElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/video3_Locators/C01_WebElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/video3_Locators/C01_WebElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/video3_Locators/C03_AutomationExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/video3_Locators/C03_AutomationExercise.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +57,7 @@
       <recent name="C:\Users\33602\IdeaProjects\com.wisequarter\src\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C03_AutomationExercise">
+  <component name="RunManager" selected="JUnit.C04_BeforeClass_AfterClass">
     <configuration name="C01_WebElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="video3_Locators.C01_WebElements" />
       <module name="com.wisequarter" />
@@ -69,8 +71,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_FindElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="video3_Locators.C02_FindElements" />
+    <configuration name="test01_deneme" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="video3_Locators.test01_deneme" />
       <module name="com.wisequarter" />
       <extension name="coverage">
         <pattern>
@@ -82,8 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_AutomationExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="video3_Locators.C03_AutomationExercise" />
+    <configuration name="test02_Facebook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="video3_Locators.test02_Facebook" />
       <module name="com.wisequarter" />
       <extension name="coverage">
         <pattern>
@@ -95,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DriverManageMethodlari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="video2_DriverMethodlari.DriverManageMethodlari" />
+    <configuration name="test03_bestbuy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="video3_Locators.test03_bestbuy" />
       <module name="com.wisequarter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="video2_DriverMethodlari.*" />
+          <option name="PATTERN" value="video3_Locators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,26 +110,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DriverNavigateMethodlari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="video2_DriverMethodlari.DriverNavigateMethodlari" />
+    <configuration name="C04_BeforeClass_AfterClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.wisequarter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="video2_DriverMethodlari.*" />
+          <option name="PATTERN" value="video5_Annotations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="video5_Annotations" />
+      <option name="MAIN_CLASS_NAME" value="video5_Annotations.C04_BeforeClass_AfterClass" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.C03_AutomationExercise" />
-        <item itemvalue="Application.C02_FindElements" />
+        <item itemvalue="JUnit.C04_BeforeClass_AfterClass" />
+        <item itemvalue="Application.test03_bestbuy" />
+        <item itemvalue="Application.test02_Facebook" />
+        <item itemvalue="Application.test01_deneme" />
         <item itemvalue="Application.C01_WebElements" />
-        <item itemvalue="Application.DriverManageMethodlari" />
-        <item itemvalue="Application.DriverNavigateMethodlari" />
       </list>
     </recent_temporary>
   </component>
